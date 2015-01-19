@@ -2,12 +2,10 @@
 using System.Collections;
 
 public class ProblemaTabu {
-    public Arista[,] problema;
     public Cliente[] clientes;
 
-    public ProblemaTabu(Cliente[] clientes, Arista[,] problema)
+    public ProblemaTabu(Cliente[] clientes)
     {
-        this.problema = problema;
         this.clientes = clientes;
     }
 }
