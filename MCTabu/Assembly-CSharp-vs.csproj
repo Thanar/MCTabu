@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Grafo.cs" />
      <Compile Include="Assets\Scripts\ProblemaTabu.cs" />
      <Compile Include="Assets\Scripts\Vehiculo.cs" />
+     <Compile Include="Assets\Scripts\parserdecosasdelpdf.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
