@@ -47,7 +47,21 @@ public class ProblemaTabu {
 
     private void generaDatosProblema3()
     {
-        clientes = genera50Clientes();
+        Cliente [] clients = genera50Clientes();
+        clientes = new Cliente[20];
+        for (int i = 0; i < 20; i++)
+        {
+            clientes[i] = clients[i];
+        }
+
+        vehiculos = new Vehiculo[5];
+
+        vehiculos[0] = new Vehiculo() { capacidad=20,costeFijo=20};
+        vehiculos[1] = new Vehiculo() { capacidad = 30, costeFijo = 35 };
+        vehiculos[2] = new Vehiculo() { capacidad = 40, costeFijo = 50 };
+        vehiculos[3] = new Vehiculo() { capacidad = 70, costeFijo = 120 };
+        vehiculos[4] = new Vehiculo() { capacidad = 120, costeFijo = 225 };
+
     }
 
 
