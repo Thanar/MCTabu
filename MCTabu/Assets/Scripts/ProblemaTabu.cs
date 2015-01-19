@@ -29,13 +29,13 @@ public class ProblemaTabu {
                 generaDatosProblema3();
                 break;
             case 4:
-                generaDatosProblema3();
+                generaDatosProblema4();
                 break;
             case 5:
-                generaDatosProblema3();
+                generaDatosProblema5();
                 break;
             case 6:
-                generaDatosProblema3();
+                generaDatosProblema6();
                 break;
             case 7:
                 break;
