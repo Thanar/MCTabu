@@ -2,16 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Solucion : MonoBehaviour {
+public class Solucion{
 
-    public List<Ruta> solucion = new List<Ruta>();
+    public List<Ruta> rutas = new List<Ruta>();
 	// Use this for initialization
-	void Start () {
 	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }
