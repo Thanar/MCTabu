@@ -51,6 +51,9 @@
      <Compile Include="Assets\Scripts\Ejemplo.cs" />
      <Compile Include="Assets\Scripts\Grafo.cs" />
      <Compile Include="Assets\Scripts\ProblemaTabu.cs" />
+     <Compile Include="Assets\Scripts\Ruta.cs" />
+     <Compile Include="Assets\Scripts\Solucion.cs" />
+     <Compile Include="Assets\Scripts\TSA.cs" />
      <Compile Include="Assets\Scripts\Vehiculo.cs" />
      <Compile Include="Assets\Scripts\parserdecosasdelpdf.cs" />
  <Reference Include="UnityEngine.UI">
