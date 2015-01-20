@@ -6,6 +6,12 @@ public class TSA : MonoBehaviour {
 
     public Solucion solucionInicial;
     public ProblemaTabu problema;
+
+    public int maxIteraciones;
+
+    public List<Arista> listaTabu= new List<Arista>();
+    
+    public float costeSolucion;
 	// Use this for initialization
 	void Start () {
         problema = new ProblemaTabu(3);
@@ -18,7 +24,33 @@ public class TSA : MonoBehaviour {
 	}
     void solucionarProblema()
     {
+        int i=0;
         generaSolucionInicial();
+        while(i<maxIteraciones){
+            trialMoves();
+            mejorarRuta();
+            actualizaListaTabu();
+            actualizarContadores();
+               if (!criterioParada())
+                {
+                    if (!middleCycle)
+                    {
+                        if (!endCycle)
+                        {
+                         continue;
+                        }else{
+                            vaciaListaTabu();
+                            actualizaDatos();
+                        }              
+                    }else{
+                         actualizaDatos();
+                    }          
+                }
+                else{
+                   break;
+                }
+        }
+        
     }
 
     void generaSolucionInicial()
