@@ -7,6 +7,6 @@ public class Ruta {
 
     public List<Cliente> recorrido = new List<Cliente>();
     public Vehiculo tipoUtilizado;
-    public int costeRuta;
+    public float costeRuta;
 	
 }
