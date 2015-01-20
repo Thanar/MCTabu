@@ -15,6 +15,10 @@ public class ProblemaTabu {
         this.clientes = clientes;
     }
 
+    public float getDistanciaEntre(Cliente i, Cliente j)
+    {
+        return Vector2.Distance(new Vector2(i.x,i.y),new Vector2(j.x,j.y));
+    }
 
 
     private void generaDatosProblema(int i)

@@ -13,6 +13,24 @@
 /*.pidb
 /*.booproj
 
+MCTabu/*.csproj
+MCTabu/*.unityproj
+MCTabu/*.sln
+MCTabu/*.suo
+MCTabu/*.user
+MCTabu/*.userprefs
+MCTabu/*.pidb
+MCTabu/*.booproj
+
+
+
+
+
+
 #Unity3D Generated File On Crash Reports
 sysinfo.txt
 UnityVS
+
+
+*.suo
+MCTabu/MCTabu-csharp.v12.suo
