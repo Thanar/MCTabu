@@ -49,7 +49,11 @@
      <Compile Include="Assets\Scripts\Arista.cs" />
      <Compile Include="Assets\Scripts\Cliente.cs" />
      <Compile Include="Assets\Scripts\Ejemplo.cs" />
+     <Compile Include="Assets\Scripts\ExtendedFlycam.cs" />
+     <Compile Include="Assets\Scripts\GENI.cs" />
+     <Compile Include="Assets\Scripts\GENITEST.cs" />
      <Compile Include="Assets\Scripts\Grafo.cs" />
+     <Compile Include="Assets\Scripts\Nodo.cs" />
      <Compile Include="Assets\Scripts\ProblemaTabu.cs" />
      <Compile Include="Assets\Scripts\Ruta.cs" />
      <Compile Include="Assets\Scripts\Solucion.cs" />

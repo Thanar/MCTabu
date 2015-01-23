@@ -55,8 +55,8 @@ public class ProblemaTabu {
     private void generaDatosProblema3()
     {
         Cliente [] clients = genera50Clientes();
-        clientes = new Cliente[20];
-        for (int i = 0; i < 20; i++)
+        clientes = new Cliente[51];
+        for (int i = 0; i < 51; i++)
         {
             clientes[i] = clients[i];
         }
@@ -129,7 +129,7 @@ public class ProblemaTabu {
 
     public Cliente[] genera50Clientes()
     {
-        Cliente[] clients = new Cliente[50];
+        Cliente[] clients = new Cliente[51];
 
         clients[0] = new Cliente(30, 40, 0);
 
@@ -189,7 +189,7 @@ public class ProblemaTabu {
 
     public Cliente[] genera75Clientes()
     {
-        Cliente[] clients = new Cliente[75];
+        Cliente[] clients = new Cliente[76];
 
         clients[0] = new Cliente(40,40,0);
 
@@ -275,7 +275,7 @@ public class ProblemaTabu {
     public Cliente[] genera100Clientes()
     {
 
-        Cliente[] clients = new Cliente[100];
+        Cliente[] clients = new Cliente[101];
 
         clients[0] = new Cliente(35,35,0);
 

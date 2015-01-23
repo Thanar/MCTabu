@@ -6,4 +6,9 @@ public class Vehiculo {
     public float cargaActual = 0;
     public float costeFijo = 0;
     public float costeVariable = 0;
+
+    public float capacidadActual()
+    {
+        return capacidad - cargaActual;
+    }
 }

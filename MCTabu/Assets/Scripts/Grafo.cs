@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class Grafo : MonoBehaviour {
-	// Use this for initialization
-	void Start () {
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+public class Grafo {
+    public List<Nodo> nodos = new List<Nodo>();
+
+
+
+    public void RevertirDelNodoiAlj(Cliente i, Cliente j)
+    {
+
+    }
 }
