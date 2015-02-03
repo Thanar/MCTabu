@@ -8,5 +8,20 @@ public class Solucion{
 
     public float coste = 0;
 	// Use this for initialization
-	
+
+
+    public Solucion Clone()
+    {
+        Solucion dev = new Solucion();
+
+        dev.coste = coste;
+        dev.rutas = new List<Ruta>();
+        foreach (Ruta r in rutas)
+        {
+            dev.rutas.Add(r.Clone());
+        }
+        return dev;
+    }
+
+    
 }

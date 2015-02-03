@@ -20,5 +20,22 @@ public class Ruta {
         }
         return carga;
     }
+
+
+    public Ruta Clone()
+    {
+        Ruta dev = new Ruta();
+
+        dev.carga = carga;
+        dev.origen = origen;
+        dev.costeRuta = costeRuta;
+        dev.tipoUtilizado = tipoUtilizado;
+        dev.recorrido = new List<Cliente>();
+        foreach (Cliente c in recorrido)
+        {
+            dev.recorrido.Add(c);
+        }
+        return dev;
+    }
 	
 }

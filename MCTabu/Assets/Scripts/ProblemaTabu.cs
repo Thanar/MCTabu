@@ -55,8 +55,8 @@ public class ProblemaTabu {
     private void generaDatosProblema3()
     {
         Cliente [] clients = genera50Clientes();
-        clientes = new Cliente[51];
-        for (int i = 0; i < 51; i++)
+        clientes = new Cliente[21];
+        for (int i = 0; i < 21; i++)
         {
             clientes[i] = clients[i];
         }
